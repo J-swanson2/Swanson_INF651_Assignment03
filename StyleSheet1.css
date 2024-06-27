@@ -1,0 +1,27 @@
+﻿﻿﻿
+<!DOCTYPE html >
+<html lang="en" >
+<head >
+<meta charset="utf-8" >
+<title > My JS test page</title >
+<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" >
+<link href="StyleSheet1.css" rel="stylesheet" type="text/css" >
+</head >
+<body >
+<h1 > Assignment 2</h1 >
+<h2 > Random Number Guesser: Type a number between 0 - 9</h2 >
+<h2 id="guessHeader" > </h2 >
+
+<input type="button" id="check" value="Guess Number Game" onclick="numberGuess()" / >
+
+<h2 > Create New Password</h2 >
+<input type="button" id="firstSet" value="Set Password" onclick="passwordSet()" / >
+
+<h2 id="confirmPrompt" > </h2 >
+
+<h2 > Multiplication table</h2 >
+<input type="button" value="Multiply a number" onclick="multiply()" / >
+<p id="table" > </p >
+<script src="Script1.js" > </script >
+</body >
+</html >
