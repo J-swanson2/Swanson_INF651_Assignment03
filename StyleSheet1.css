@@ -1,27 +1,37 @@
-﻿﻿﻿
-<!DOCTYPE html >
-<html lang="en" >
-<head >
-<meta charset="utf-8" >
-<title > My JS test page</title >
-<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" >
-<link href="StyleSheet1.css" rel="stylesheet" type="text/css" >
-</head >
-<body >
-<h1 > Assignment 2</h1 >
-<h2 > Random Number Guesser: Type a number between 0 - 9</h2 >
-<h2 id="guessHeader" > </h2 >
+﻿﻿ /* Copied Style Sheet from assignment 1*/
+html {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
 
-<input type="button" id="check" value="Guess Number Game" onclick="numberGuess()" / >
 
-<h2 > Create New Password</h2 >
-<input type="button" id="firstSet" value="Set Password" onclick="passwordSet()" / >
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
 
-<h2 id="confirmPrompt" > </h2 >
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
 
-<h2 > Multiplication table</h2 >
-<input type="button" value="Multiply a number" onclick="multiply()" / >
-<p id="table" > </p >
-<script src="Script1.js" > </script >
-</body >
-</html >
+
+html {
+    background-color: #00539F;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+}
